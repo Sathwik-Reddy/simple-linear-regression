@@ -7,7 +7,7 @@ import pandas_ods_reader as por
 
 #reading the file
 
-dataset = por.read_ods('sucides.ods',1,headers=False)
+dataset = por.read_ods('sucide_list.ods',1,headers=False)
 x=dataset.iloc[1:,:1].values
 y=dataset.iloc[1:,-1:].values
 
